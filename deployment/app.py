@@ -5,6 +5,7 @@ import joblib
 import os
 import numpy as np
 
+
 # Download the model from the Model Hub
 model_path = hf_hub_download(repo_id="Abhinavbhatnagar/mlops-tourism-project", filename="best_travel_model_v1.joblib")
 
